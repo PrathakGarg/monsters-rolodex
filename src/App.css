@@ -16,10 +16,10 @@ body {
 }
 
 .app-title {
-  margin-top: 75px;
-  margin-bottom: 50px;
+  margin-top: 81px;
+  margin-bottom: 65px;
 
-  font-size: 76px;
-  color: #0ccac4;
-  font-family: 'Bigelow Rules', cursive;
+  font-size: 100px;
+  color: #198b87;
+  font-family: cursive;
 }
