@@ -7,6 +7,7 @@ const SearchBox = ({ className, placeholder, onChangeHandler }) => (
     placeholder={placeholder}
     onChange={onChangeHandler}
   />
+  
 );
 
 // class SearchBox extends Component {
