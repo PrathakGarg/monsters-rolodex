@@ -1,8 +1,27 @@
 .card-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
 
-    width: 85vw;
-    margin: 0 auto;
+  width: 85vw;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 30px;
+
+  cursor: pointer;
+}
+
+.img {
+  margin-top: 65%;
+  margin-left: 35%;
+  height: 70px;
+  width: 70px;
 }
