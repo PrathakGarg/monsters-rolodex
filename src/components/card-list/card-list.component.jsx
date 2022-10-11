@@ -19,7 +19,6 @@ const CardList = ({ monsters }) => {
       })}
       <div className="add">
         <div className="inputs">
-          c
           <input placeholder="Name" className="name" />
           <input placeholder="Email" className="email" />
           <div className="buttons">
