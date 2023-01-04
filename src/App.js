@@ -19,7 +19,7 @@ const App = () => {
     const newFilteredMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField)
     );
-
+    
     setFilteredMonsters(newFilteredMonsters);
   }, [monsters, searchField]);
 
