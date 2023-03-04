@@ -1,14 +1,23 @@
+import { Monster } from "../../App";
+
 import "./card.styles.css";
 
-const MonsterCard = ({ monster: { id, name, email } }) => (
-  <div className="card-container">
-    <img
-      alt={`monster ${name}`}
-      src={`https://robohash.org/${id}?size=180x180&set=set2`}></img>
-    <h2>{name}</h2>
-    <p>{email}</p>
-  </div>
-);
+type MonsterCardProps = {
+  monster: Monster
+}
+
+const MonsterCard = ({ monster }: MonsterCardProps) => {
+  const { id, name, email } = monster;
+  return (
+    <div className="card-container">
+      <img
+        alt={`monster ${name}`}
+        src={`https://robohash.org/${id}?size=180x180&set=set2`}></img>
+      <h2>{name}</h2>
+      <p>{email}</p>
+    </div>
+  );
+}
 
 // class MonsterCard extends Component {
 //   render() {

@@ -1,0 +1,33 @@
+.add-card-container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding:30px;
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.add-card-image {
+    height: 100px;
+    width: 100px;
+}
+
+.add-card-content {
+    input {
+        margin: 5px;
+        height: 30px;
+        width: 250px;
+    }
+
+    .buttons {
+        .button {
+            width: 100px;
+        }
+    }
+}
